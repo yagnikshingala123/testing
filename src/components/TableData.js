@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { withRouter } from "./Wrapper";
-import { userDelete, userEdit } from "../redux/Action";
-import { connect, useDispatch, useSelector } from "react-redux";
+import { userEdit } from "../redux/Action";
+import { connect, useDispatch } from "react-redux";
 import { Table } from "antd";
 import axios from "axios";
 
